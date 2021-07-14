@@ -1,10 +1,20 @@
 vi:
-  hello: "Hello world"
   tutorial: "Ruby on Rails Tutorial"
+  ruby_on_rails: "Ruby on Rails"
+  base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
-    application:
-      title:
-        base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "sample app"
+      login: "Đăng nhập"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+    footer:
+      intro: ""
+      by: "bởi"
+      author: "Michael Hartl"
+      about: "Tìm hiểu"
+      contact: "Liên lạc"
+      news: "Tin tức"
   static_pages:
     help:
       heading: "Hỗ trợ"
@@ -17,3 +27,20 @@ vi:
       app_name: "Sample App"
       intro: "Chào mừng bạn đến với"
       type_app: "sample app"
+      welcome: "Chào mừng bạn đến với Sample App"
+      signup: "Đăng ký ngay!"
+    about:
+      part: "là một phần của"
+      learn_enough: "Learn Enough"
+      part2: "tutorial, là một phần"
+      and: "và"
+      screencast: "chuỗi screencast"
+      part3: "dạy cách phát triển web với"
+      intro: "Đây là ứng dụng mẫu dành cho hướng dẫn."
+    contact:
+      intro: "Liên hệ Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "trang liên lạc"
+  users:
+    new:
+      signup: "Đăng ký"
+      intro: "Đây là trang đăng kí dành cho người dùng mới"
