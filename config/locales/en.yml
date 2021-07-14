@@ -1,4 +1,5 @@
-tutorial: "Ruby on Rails Tutorial"
+en:
+  tutorial: "Ruby on Rails Tutorial"
   ruby_on_rails: "Ruby on Rails"
   base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
