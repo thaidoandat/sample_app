@@ -2,6 +2,8 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   ruby_on_rails: "Ruby on Rails"
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome: "Welcome to the Sample App"
+  not_found: "User not found"
   layouts:
     header:
       sample_app: "sample app"
@@ -44,3 +46,15 @@ en:
     new:
       signup: "Sign up"
       intro: "This will be a signup page for new users."
+      create_account: "Create my account"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
+  activerecord:
+    attributes:
+      users:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"
