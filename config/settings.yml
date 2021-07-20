@@ -9,3 +9,15 @@ link:
   learn_enough: "https://www.learnenough.com/"
   screencast_series: "https://screencasts.railstutorial.org/"
   rails_contact: "https://www.railstutorial.org/contact"
+name:
+  length:
+    min: 3
+    max: 50
+email:
+  length:
+    min: 11
+    max: 50
+  valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+password:
+  length:
+    min: 6
