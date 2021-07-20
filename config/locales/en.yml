@@ -3,6 +3,7 @@ en:
   ruby_on_rails: "Ruby on Rails"
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome: "Welcome to the Sample App"
+  not_found: "User not found"
   layouts:
     header:
       sample_app: "sample app"
@@ -50,3 +51,10 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+  activerecord:
+    attributes:
+      users:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"

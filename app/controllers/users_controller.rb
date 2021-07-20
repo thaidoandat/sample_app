@@ -12,7 +12,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t "not_found"
+    redirect_to root_path
   end
 
   private
