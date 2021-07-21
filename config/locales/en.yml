@@ -55,6 +55,7 @@ en:
   sessions:
     new:
       new_user: "New User?"
+      remember_me: "Remember me on this computer"
   activerecord:
     attributes:
       users:
