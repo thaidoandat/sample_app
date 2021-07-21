@@ -55,6 +55,7 @@ vi:
   sessions:
     new:
       new_user: Người dùng mới?
+      remember_me: "Lưu tài khoản"
   activerecord:
     attributes:
       users:
