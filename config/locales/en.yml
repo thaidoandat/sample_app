@@ -10,6 +10,11 @@ en:
   deleted_failed: "Deleted fail!"
   require_login: "Please log in"
   update_fail: "Update failed"
+  account_activated: "Account activated!"
+  invalid_activation: "Invalid activation link"
+  check_email_to_activate: "Please check your email to activate your account."
+  required_activate_email: "Account not activated. Check your email for the activation link."
+  subject_email: "Account activation"
   layouts:
     header:
       sample_app: "sample app"
@@ -90,3 +95,8 @@ en:
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"
