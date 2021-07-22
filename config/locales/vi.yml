@@ -5,12 +5,22 @@ vi:
   welcome: "Chào mừng bạn đến với Sample App"
   not_found: "Không tìm thấy người dùng"
   error_login: "Email hoặc mật khẩu không đúng!"
+  profile_updated: "Thông tin cá nhân của bạn đã được cập nhật"
+  user_deleted: "Đã xóa người dùng"
+  deleted_failed: "Xóa thất bại"
+  require_login: "Vui lòng đăng nhập"
+  update_fail: "Cập nhật thất bại"
   layouts:
     header:
       sample_app: "sample app"
       login: "Đăng nhập"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      settings: "Thiết lập"
+      logout: "Đăng xuất"
     footer:
       intro: ""
       by: "bởi"
@@ -48,6 +58,16 @@ vi:
       signup: "Đăng ký"
       intro: "Đây là trang đăng kí dành cho người dùng mới"
       create_account: "Tạo tài khoản"
+    user:
+      confirm: "Bạn muốn xóa người dùng này?"
+      delete: "Xóa"
+    edit:
+      title: "Chỉnh sửa"
+      update_profile: "Cập nhật thông tin cá nhân của bạn"
+      change: "Thay đổi"
+      save_change: "Lưu thay đổi"
+    index:
+      all_users: "Người dùng"
   shared:
     error_messages:
       intro: "Mẫu đăng ký gồm"
@@ -63,3 +83,10 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+  views:
+    pagination:
+      first: "« ĐẦU"
+      last: "CUỐI »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"

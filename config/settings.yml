@@ -9,6 +9,7 @@ link:
   learn_enough: "https://www.learnenough.com/"
   screencast_series: "https://screencasts.railstutorial.org/"
   rails_contact: "https://www.railstutorial.org/contact"
+  gravatar_home: "https://gravatar.com/emails"
 name:
   length:
     min: 3
@@ -21,3 +22,16 @@ email:
 password:
   length:
     min: 6
+avatar:
+  size:
+    default: 80
+    for_list: 50
+page:
+  item_per_page: 15
+user:
+  admin:
+    name: "Example User"
+    email: "example@railstutorial.org"
+    password: "foobar"
+  faker:
+    password: "password"

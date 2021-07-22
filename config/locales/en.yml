@@ -5,12 +5,22 @@ en:
   welcome: "Welcome to the Sample App"
   not_found: "User not found"
   error_login: "Invalid Email Password Combination"
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
+  deleted_failed: "Deleted fail!"
+  require_login: "Please log in"
+  update_fail: "Update failed"
   layouts:
     header:
       sample_app: "sample app"
       login: "Log in"
       en: "English"
       vi: "Vietnamese"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
     footer:
       intro: "The"
       by: "by"
@@ -48,6 +58,16 @@ en:
       signup: "Sign up"
       intro: "This will be a signup page for new users."
       create_account: "Create my account"
+    user:
+      confirm: Are you sure?
+      delete: "Delete"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      change: "Change"
+      save_change: "Save changes"
+    index:
+      all_users: "All users"
   shared:
     error_messages:
       intro: "The form contains"
@@ -63,3 +83,10 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm password"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
