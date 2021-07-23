@@ -21,6 +21,12 @@ en:
   password_reset_expired: "Password reset has expired"
   no_empty: "can't be empty"
   reset_password_success: "Password has been reset."
+  micropost_created: "Micropost created!"
+  micropost_created_fail: "Failed to create micropost"
+  micropost_deleted: "Micropost deleted"
+  delete_fail: "Deleted fail"
+  micropost_invalid: "Micropost invalid"
+  delete: "delete"
   layouts:
     header:
       sample_app: "sample app"
@@ -53,6 +59,7 @@ en:
       type_app: "sample application"
       welcome: "Welcome to the Sample App"
       signup: "Sign up now!"
+      feed: "Micropost Feed"
     about:
       part: "part of the"
       learn_enough: "Learn Enough"
@@ -79,10 +86,19 @@ en:
       save_change: "Save changes"
     index:
       all_users: "All users"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       intro: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      create_new_micropost: "Compose new micropost..."
+      post: "Post"
+      less_than_5MB: "Maximum file size is 5MB. Please choose a smaller file."
   sessions:
     new:
       new_user: "New User?"
@@ -121,4 +137,13 @@ en:
     edit:
       title: "Reset password"
       update_password: "Update password"
-
+  micro_post:
+    posted: "Posted"
+    ago: "ago"
+  errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              required_size: "should be less than 5MB"

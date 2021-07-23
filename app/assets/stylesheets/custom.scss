@@ -81,6 +81,7 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+
   &:hover {
     color: $white;
     text-decoration: none;
@@ -97,6 +98,7 @@ footer {
 
   a {
     color: $emperor;
+
     &:hover {
       color: $mine_shaft;
     }
@@ -109,6 +111,7 @@ footer {
   ul {
     float: right;
     list-style: none;
+
     li {
       float: left;
       margin-left: 15px;
@@ -158,7 +161,7 @@ aside {
 
 /* forms */
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $silver;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -170,6 +173,7 @@ input {
 
 #error_explanation {
   color: $red;
+
   ul {
     color: $red;
     margin: 0 0 30px 0;
@@ -184,16 +188,18 @@ input {
 }
 
 checkbox {
- margin-bottom: 10px;
- margin-top: 10px;
-   span {
-   font-weight: normal;
-   margin-left: 20px;
- }
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
 }
+
 #session_remember_me {
- margin-left: 0;
- width: auto;
+  margin-left: 0;
+  width: auto;
 }
 
 /* Users index */
@@ -205,5 +211,59 @@ checkbox {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $mercury;
+  }
+}
+
+/* microposts */
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $mercury;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $boulder;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.image {
+  margin-top: 10px;
+
+  input {
+    border: 0;
   }
 }
