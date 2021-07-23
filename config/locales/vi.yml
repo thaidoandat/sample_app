@@ -15,6 +15,12 @@ vi:
   check_email_to_activate: "Vui lòng kiểm tra email của bạn để xác thực tài khoản."
   required_activate_email: "Tài khoản chưa được xác thực. Kiểm tra email của bạn để hoàn thành xác thực."
   subject_email: "Xác thực tài khoản"
+  reset_password_email: "Email đã được gửi kèm hướng dẫn đổi mật khẩu"
+  email_not_found: "Email không tồn tại"
+  password_reset: "Lấy lại mật khẩu"
+  password_reset_expired: "Thời hạn lấy lại mật khẩu đã hết"
+  no_empty: "không thể để trống"
+  reset_password_success: "Mật khẩu đã được cập nhật"
   layouts:
     header:
       sample_app: "sample app"
@@ -81,9 +87,10 @@ vi:
     new:
       new_user: Người dùng mới?
       remember_me: "Lưu tài khoản"
+      forgot_password: "Quên mật khẩu?"
   activerecord:
     attributes:
-      users:
+      user:
         name: "Tên"
         email: "Email"
         password: "Mật khẩu"
@@ -98,5 +105,19 @@ vi:
   user_mailer:
     account_activation:
       greeting: "Chào"
-      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào đường dẫn ở dưới để xác thực tài khoản:"
+      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào đường dẫn ở dưới để
+        xác thực tài khoản:"
       active: "Xác thực"
+    password_reset:
+      intro: "Để đổi mật khẩu, nhấn vào đường dẫn bên dưới:"
+      expire: "Đường dẫn sẽ hết hạn trong hai tiếng"
+      ignore: "Nếu bạn không yêu cầu thay đổi mật khẩu, vui lòng bỏ qua email
+        này và mật khẩu của bạn sẽ không thay đổi."
+      reset_password: "Lấy lại mật khẩu"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit:
+      title: "Đổi mật khẩu"
+      update_password: "Cập nhật mật khẩu"
