@@ -19,6 +19,7 @@ email:
     min: 11
     max: 50
   valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+  expired_hours: 2
 password:
   length:
     min: 6
