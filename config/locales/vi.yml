@@ -10,6 +10,11 @@ vi:
   deleted_failed: "Xóa thất bại"
   require_login: "Vui lòng đăng nhập"
   update_fail: "Cập nhật thất bại"
+  account_activated: "Tài khoản đã được xác thực!"
+  invalid_activation: "Tài khoản chưa được xác thực"
+  check_email_to_activate: "Vui lòng kiểm tra email của bạn để xác thực tài khoản."
+  required_activate_email: "Tài khoản chưa được xác thực. Kiểm tra email của bạn để hoàn thành xác thực."
+  subject_email: "Xác thực tài khoản"
   layouts:
     header:
       sample_app: "sample app"
@@ -90,3 +95,8 @@ vi:
       previous: "‹ TRƯỚC"
       next: "SAU ›"
       truncate: "…"
+  user_mailer:
+    account_activation:
+      greeting: "Chào"
+      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào đường dẫn ở dưới để xác thực tài khoản:"
+      active: "Xác thực"
