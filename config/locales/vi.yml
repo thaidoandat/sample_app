@@ -27,6 +27,10 @@ vi:
   delete_fail: "Xóa thất bại"
   micropost_invalid: "Bài đăng không tồn tại"
   delete: "xóa"
+  following: "Đang theo dõi"
+  follower: "Người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
   layouts:
     header:
       sample_app: "sample app"
@@ -88,6 +92,9 @@ vi:
       all_users: "Người dùng"
     show:
       microposts: "Bài đăng"
+    show_follow:
+      micoposts: "Các bài đăng:"
+      view_profile: "xem trang cá nhân của tôi"
   shared:
     error_messages:
       intro: "Mẫu đăng ký gồm"
@@ -100,6 +107,9 @@ vi:
       post: "Đăng"
       less_than_5MB: "Kích thước tối đa của tập tin là 5MB.
       Vui lòng chọn tập tin có kích thước nhỏ hơn."
+    stats:
+      following: "đang theo dõi"
+      follower: "người theo dõi"
   sessions:
     new:
       new_user: Người dùng mới?
@@ -138,9 +148,10 @@ vi:
     edit:
       title: "Đổi mật khẩu"
       update_password: "Cập nhật mật khẩu"
-  micro_post:
-    posted: "Đăng"
-    ago: "trước"
+  microposts:
+    micropost:
+      posted: "Đăng"
+      ago: "trước"
   errors:
       models:
         micropost:
