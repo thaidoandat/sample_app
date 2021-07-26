@@ -48,10 +48,14 @@ yarn-debug.log*
 /test/
 
 
+
+# Ignore application configuration
+/config/application.yml
+
+# Ignore uploaded test images.
+/storage
+
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
 /test/
-
-# Ignore application configuration
-/config/application.yml
