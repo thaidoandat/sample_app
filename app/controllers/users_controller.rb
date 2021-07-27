@@ -50,8 +50,7 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user)
-          .permit User::USER_PARAMS
+    params.require(:user).permit User::USER_PARAMS
   end
 
   def correct_user
@@ -60,13 +59,5 @@ class UsersController < ApplicationController
 
   def admin_user
     redirect_to root_url unless current_user.admin?
-  end
-
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "not_found"
-    redirect_to root_url
   end
 end

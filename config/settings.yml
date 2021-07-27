@@ -3,15 +3,16 @@ avatar:
   size:
     default: 80
     for_list: 50
+    for_follow: 30
 email:
   length:
     min: 11
     max: 50
   valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
   expired_hours: 2
-image_resize: [500, 500]
 image_type: ["image/jpeg", "image/gif", "image/png"]
 image_type_accepted: "image/jpeg,image/gif,image/png"
+image_resize: [500, 500]
 link:
   rails_help: "http://www.railstutorial.org/help"
   rails_book: "http://www.railstutorial.org/book"
@@ -24,6 +25,7 @@ link:
   rails_contact: "https://www.railstutorial.org/contact"
   gravatar_home: "https://gravatar.com/emails"
 max_image_storage_size: 5
+max_item_per_page: 5
 micropost:
   length:
     max: 140

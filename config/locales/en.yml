@@ -27,6 +27,10 @@ en:
   delete_fail: "Deleted fail"
   micropost_invalid: "Micropost invalid"
   delete: "delete"
+  following: "Following"
+  follower: "Follower"
+  follow: "Follow"
+  unfollow: "Unfollow"
   layouts:
     header:
       sample_app: "sample app"
@@ -88,6 +92,9 @@ en:
       all_users: "All users"
     show:
       microposts: "Microposts"
+    show_follow:
+      micoposts: "Microposts:"
+      view_profile: "view my profile"
   shared:
     error_messages:
       intro: "The form contains"
@@ -99,6 +106,9 @@ en:
       create_new_micropost: "Compose new micropost..."
       post: "Post"
       less_than_5MB: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      follower: "follower"
   sessions:
     new:
       new_user: "New User?"
@@ -137,9 +147,10 @@ en:
     edit:
       title: "Reset password"
       update_password: "Update password"
-  micro_post:
-    posted: "Posted"
-    ago: "ago"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
   errors:
       models:
         micropost:
